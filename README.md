@@ -176,4 +176,7 @@ Issues and pull requests are welcome. Two things to know:
 
 ## Licence
 
-[MIT](LICENSE).
+[MIT](LICENSE). Please also read the [disclaimer](DISCLAIMER.md): this is not a
+government service, the data is synthetic, and it should not be deployed as a
+real warning system without the arrangements described on the
+"How this would actually run" page.
