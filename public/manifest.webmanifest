@@ -1,0 +1,25 @@
+{
+  "name": "Suno — the warning, in your language",
+  "short_name": "Suno",
+  "description": "Disaster warnings for India in 13 languages, read aloud, working offline. An independent prototype, not a government service.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FBFAF7",
+  "theme_color": "#A81816",
+  "categories": ["utilities", "news", "government"],
+  "lang": "en-IN",
+  "dir": "ltr",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Ask a question", "short_name": "Ask", "url": "/?tab=home&ask=1" },
+    { "name": "Find a shelter", "short_name": "Shelter", "url": "/?tab=alerts" }
+  ]
+}

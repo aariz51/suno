@@ -1,0 +1,34 @@
+# dependencies and build output
+node_modules
+.next
+out
+
+# deployment
+.vercel
+
+# secrets — .env.example IS committed, everything else is not
+.env
+.env.local
+.env*.local
+
+# generated artefacts: screenshots, audit output, study captures.
+# All reproducible with the scripts in scripts/, so they are not source.
+screens
+study
+audit-report.json
+*.log
+
+.DS_Store
+
+# local tooling and build artefacts, not part of the project
+.claude
+.agents
+skills-lock.json
+tsconfig.tsbuildinfo
+
+# submission paperwork: contains a personal email address and hackathon-form
+# working notes. Stays on disk, never published.
+SUBMISSION-FORM.md
+SUBMISSION.md
+DESIGN-AUDIT.md
+PARITY.md
